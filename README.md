@@ -23,7 +23,7 @@ the jobs, steps, etc.
 * Schedules can be set up independant of jobs, and a single schedule can be used for multiple jobs.
 * Jobs can have multiple schedules.
 * Agent's should be able to have smtp info set up to allow them to send mail.
-* Jobs and Steps should have an "email on" configuration, and allow user defined messages.
+* Jobs and Steps should have an "email on" configuration, and allow user defined subjects, messages, to, and from.
 * Jobs should be able to be killed from the management UI.
 * Jobs should be able to be kicked off from the management UI.
 * Steps should be able to run a batch script on the host machine of the agent, or connect to any database using JDBC
