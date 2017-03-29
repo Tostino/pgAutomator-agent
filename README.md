@@ -13,6 +13,7 @@ target database.
 the jobs, steps, etc.
     * installed on server
 3. Management UI to view/configure agents, set up jobs and steps, view current running jobs and history, etc.
+Must also connect to the database the extension is installed on.
     * installed on client machine, or available in a hosted fashion.
 
 ## Planned features & design decisions
