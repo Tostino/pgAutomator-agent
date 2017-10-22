@@ -20,14 +20,15 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.thread;
+package pgautomator.job;
 
-import java.util.concurrent.Callable;
-
-public interface CancellableCallable<T> extends Callable<T>
+/**
+ * @author Adam Brusselback.
+ */
+public enum State
 {
-    /**
-     * Should stop any long running process the thread was doing to exit gracefully as quickly as possible.
-     */
-    void cancelTask();
+    RUNNING,
+    FAILED,
+    SUCCEEDED,
+    ABORTED;
 }

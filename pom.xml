@@ -69,7 +69,7 @@
                             <finalName>${project.name}</finalName>
                             <archive>
                                 <manifest>
-                                    <mainClass>me.gosimple.pgautomator.PGAutomator</mainClass>
+                                    <mainClass>PGAutomator</mainClass>
                                     <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                                     <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
                                 </manifest>

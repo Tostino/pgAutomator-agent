@@ -20,19 +20,26 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.job.step;
+package pgautomator.job.step;
 
 
-import com.gosimple.pgautomator.database.Database;
-import com.gosimple.pgautomator.database.DatabaseAuth;
-import com.gosimple.pgautomator.job.Job;
-import com.gosimple.pgautomator.Config;
-import com.gosimple.pgautomator.email.EmailUtil;
-import com.gosimple.pgautomator.job.State;
-import com.gosimple.pgautomator.thread.CancellableRunnable;
+import pgautomator.Config;
+import pgautomator.database.Database;
+import pgautomator.database.DatabaseAuth;
+import pgautomator.email.EmailUtil;
+import pgautomator.job.Job;
+import pgautomator.job.State;
+import pgautomator.thread.CancellableRunnable;
 
-import java.io.*;
-import java.sql.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 

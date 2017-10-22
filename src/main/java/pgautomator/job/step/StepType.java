@@ -20,15 +20,13 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.job.step;
+package pgautomator.job.step;
 
 /**
  * @author Adam Brusselback.
  */
-public enum StepAction
+public enum StepType
 {
-    STEP_NEXT,
-    STEP_SPECIFIC,
-    QUIT_SUCCEEDED,
-    QUIT_FAILED;
+    SQL,
+    BATCH;
 }

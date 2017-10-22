@@ -20,11 +20,15 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.email;
+package pgautomator.email;
 
-import com.gosimple.pgautomator.Config;
+import pgautomator.Config;
 
-import javax.mail.*;
+import javax.mail.Authenticator;
+import javax.mail.Message;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.Properties;

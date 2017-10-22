@@ -20,9 +20,9 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator;
+package pgautomator.thread;
 
-import com.gosimple.pgautomator.thread.ThreadFactory;
+
 import org.junit.Test;
 
 import java.util.concurrent.Callable;
@@ -80,7 +80,7 @@ public class ThreadFactoryTest
 
         Future<Integer> future = ThreadFactory.INSTANCE.submitTask(test);
 
-        assertEquals(future.get(), new Integer(42));
+        assertEquals(future.get(), Integer.valueOf(42));
     }
 
     @Test

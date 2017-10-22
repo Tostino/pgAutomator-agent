@@ -20,9 +20,11 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.thread;
+package pgautomator.thread;
 
-public interface CancellableRunnable extends Runnable
+import java.util.concurrent.Callable;
+
+public interface CancellableCallable<T> extends Callable<T>
 {
     /**
      * Should stop any long running process the thread was doing to exit gracefully as quickly as possible.

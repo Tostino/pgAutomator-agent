@@ -20,7 +20,7 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.job;
+package pgautomator.job;
 
 public class JobBuilder
 {

@@ -20,16 +20,16 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator;
+package pgautomator;
 
-import com.gosimple.pgautomator.database.Database;
-import com.gosimple.pgautomator.job.Job;
-import com.gosimple.pgautomator.job.JobBuilder;
-import com.gosimple.pgautomator.thread.ThreadFactory;
-import com.gosimple.pgautomator.job.State;
-import com.gosimple.pgautomator.job.step.StepBuilder;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
+import pgautomator.database.Database;
+import pgautomator.job.Job;
+import pgautomator.job.JobBuilder;
+import pgautomator.job.State;
+import pgautomator.job.step.StepBuilder;
+import pgautomator.thread.ThreadFactory;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

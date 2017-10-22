@@ -20,12 +20,12 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.job.step;
+package pgautomator.job.step;
 
-import com.gosimple.pgautomator.Config;
-import com.gosimple.pgautomator.database.Database;
-import com.gosimple.pgautomator.job.Job;
-import com.gosimple.pgautomator.job.State;
+import pgautomator.Config;
+import pgautomator.database.Database;
+import pgautomator.job.Job;
+import pgautomator.job.State;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

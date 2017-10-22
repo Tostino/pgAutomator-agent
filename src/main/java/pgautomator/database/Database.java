@@ -20,11 +20,11 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.database;
+package pgautomator.database;
 
 
-import com.gosimple.pgautomator.Config;
 import org.postgresql.ds.PGSimpleDataSource;
+import pgautomator.Config;
 
 import java.sql.Connection;
 import java.sql.SQLException;

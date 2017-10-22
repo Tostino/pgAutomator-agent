@@ -20,13 +20,12 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.job.step;
+package pgautomator.thread;
 
-/**
- * @author Adam Brusselback.
- */
-public enum OSType
+public interface CancellableRunnable extends Runnable
 {
-    WIN,
-    NIX
+    /**
+     * Should stop any long running process the thread was doing to exit gracefully as quickly as possible.
+     */
+    void cancelTask();
 }

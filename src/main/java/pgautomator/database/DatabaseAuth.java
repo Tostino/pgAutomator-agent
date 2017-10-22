@@ -20,15 +20,29 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.job;
+package pgautomator.database;
 
 /**
  * @author Adam Brusselback.
  */
-public enum State
+public class DatabaseAuth
 {
-    RUNNING,
-    FAILED,
-    SUCCEEDED,
-    ABORTED;
+    private final String user;
+    private final String pass;
+
+    public DatabaseAuth(final String user, final String pass)
+    {
+        this.user = user;
+        this.pass = pass;
+    }
+
+    public String getUser()
+    {
+        return user;
+    }
+
+    public String getPass()
+    {
+        return pass;
+    }
 }

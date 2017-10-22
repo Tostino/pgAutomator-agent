@@ -1,0 +1,5 @@
+/**
+ * @author GoSimple.
+ */
+module pgAutomator {
+}

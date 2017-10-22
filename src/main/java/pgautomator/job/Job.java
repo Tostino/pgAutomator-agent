@@ -20,19 +20,22 @@
  * SOFTWARE.
  */
 
-package com.gosimple.pgautomator.job;
+package pgautomator.job;
 
-import com.gosimple.pgautomator.database.Database;
-import com.gosimple.pgautomator.thread.ThreadFactory;
-import com.gosimple.pgautomator.Config;
-import com.gosimple.pgautomator.email.EmailUtil;
-import com.gosimple.pgautomator.thread.CancellableRunnable;
-import com.gosimple.pgautomator.job.step.Step;
-import com.gosimple.pgautomator.job.step.StepAction;
+import pgautomator.Config;
+import pgautomator.database.Database;
+import pgautomator.email.EmailUtil;
+import pgautomator.job.step.Step;
+import pgautomator.job.step.StepAction;
+import pgautomator.thread.CancellableRunnable;
+import pgautomator.thread.ThreadFactory;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.concurrent.Future;
 
 public class Job implements CancellableRunnable
