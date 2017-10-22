@@ -51,7 +51,7 @@ and execute SQL / functions / stored procedures.
 
 
 ## Requires
-pgAutomator requires Java 8+ and PostgreSQL 9.2+
+pgAutomator-agent requires Java 9+
 
 ## Platforms targeted
 * Linux
