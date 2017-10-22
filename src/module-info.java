@@ -1,5 +1,5 @@
 /**
- * @author GoSimple.
+ * @author Adam Brusselback.
  */
 module pgAutomator {
 }
